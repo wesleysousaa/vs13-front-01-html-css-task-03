@@ -1,0 +1,41 @@
+.best-movies-class {
+  text-align: center;
+}
+
+article {
+  display: inline-block;
+  width: 35vw;
+  min-height: 10vh;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: var(--default-raduis);
+  text-align: center;
+  background-color: var(--background-lighter);
+}
+
+article h3,
+p {
+  margin: 1rem;
+}
+
+article p {
+  text-align: justify;
+}
+
+.presentation-class {
+  height: 80vh;
+  background-image: url("../assets/background-presentation.gif");
+  background-size: cover;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: solid 2px #4f4f4f;
+}
+
+.presentation-class h1 {
+  font-size: 10rem;
+}
+
+.presentation-class h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
