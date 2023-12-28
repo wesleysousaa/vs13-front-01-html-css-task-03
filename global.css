@@ -34,6 +34,7 @@ a {
 nav {
   padding: 1rem;
   background-color: var(--background);
+  border-bottom: 2px solid var(--background-lighter);
 }
 
 nav i {
@@ -76,4 +77,28 @@ footer {
   background-color: var(--background-lighter);
   padding: 1rem;
   text-align: center;
+}
+
+.primary-button {
+  display: block;
+  background-color: var(--primary);
+  color: var(--text);
+  cursor: pointer;
+  border-radius: var(--default-raduis);
+  border: none;
+  height: 2rem;
+  padding: 0.5rem 0.3rem;
+}
+
+.primary-button:hover {
+  opacity: 0.5;
+}
+
+.primary-button a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.span-contrast {
+  color: var(--accent);
 }

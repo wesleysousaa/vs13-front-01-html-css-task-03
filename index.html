@@ -52,8 +52,29 @@
     </header>
     <main>
       <section id="presentation" class="presentation-class">
-        <h1>&#127757; Mundo dos filmes</h1>
-        <h2>Aqui você encontra tudo sobre filmes.</h2>
+        <img
+          src="./assets/map-600.jpg"
+          srcset="
+            ./assets/map-600.jpg  600w,
+            ./assets/map-hd.jpg   720w,
+            ./assets/map-fhd.jpg 1279w,
+            ./assets/map-2k.jpg  1919w
+          "
+          alt="Descrição da imagem"
+        />
+        <div class="description" aria-label="Descrição do site">
+          <h1>Mundo dos <span class="span-contrast">filmes</span></h1>
+          <h2>
+            Aqui você encontra tudo sobre
+            <span class="span-contrast">filmes</span> e muito mais.
+          </h2>
+          <button
+            aria-label="Ir para seção de melhores filmes"
+            class="primary-button"
+          >
+            <a href="#best-movies"> Explorar </a>
+          </button>
+        </div>
       </section>
       <section id="best-movies" class="best-movies-class">
         <h2>Top 5 melhores filmes de 2023</h2>
@@ -67,9 +88,9 @@
         </p>
         <!-- <hr /> -->
 
-        <article>
-          <h3>Assassino da Lua das Flores</h3>
-          <p>
+        <article aria-label="card do filme">
+          <h3 aria-label="Título do filme">Assassino da Lua das Flores</h3>
+          <p aria-label="Descrição do filme">
             A superprodução de Scorsese é uma das favoritas para o Oscar. Na
             lista de pré-selecionados, aparece em quatro categorias. Leonardo di
             Caprio, mais uma vez, também é cotado como melhor ator de drama. A
@@ -83,6 +104,7 @@
             <strong> Onde assistir: </strong> Prime Video e Apple TV.
           </p>
           <iframe
+            aria-label="Trailer do filme"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/T22WRjooZn4?si=lh2Ot-vimSoXQIIa"
@@ -93,9 +115,9 @@
           ></iframe>
         </article>
         <!-- <hr /> -->
-        <article>
-          <h3>Maestro</h3>
-          <p>
+        <article aria-label="card do filme">
+          <h3 aria-label="Título do filme">Maestro</h3>
+          <p aria-label="Descrição do filme">
             Dirigido e protagonizado por Bradley Cooper, “Maestro” veio direto
             para o catálogo da Netflix e deve ser um forte candidato ao Globo de
             Ouro e até mesmo ao Oscar. O filme é uma cinebiografia de Leonard
@@ -108,6 +130,7 @@
             <strong> Onde assistir: </strong> Netflix
           </p>
           <iframe
+            aria-label="Trailer do filme"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/1AYIC4e9lZg?si=TeXTI9ZkXKqlvPpS"
@@ -119,9 +142,9 @@
         </article>
         <!-- <hr /> -->
 
-        <article>
-          <h3>Barbie</h3>
-          <p>
+        <article aria-label="card do filme">
+          <h3 aria-label="Título do filme">Barbie</h3>
+          <p aria-label="Descrição do filme">
             Barbie foi o fenômeno de 2023. Com a maior bilheteria do ano, o
             filme arrecadou incríveis US$1,35 bilhão. Com direção assinada por
             Greta Gerwig ("Lady Bird") e protagonistas como Margot Robbie, Ryan
@@ -141,6 +164,7 @@
             <strong> Onde assistir: </strong> Prime Video e HBO Max
           </p>
           <iframe
+            aria-label="Trailer do filme"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/pBk4NYhWNMM?si=kaM9PAVwFx_wB6Id"
@@ -152,9 +176,9 @@
         </article>
         <!-- <hr /> -->
 
-        <article>
-          <h3>Oppenheimer</h3>
-          <p>
+        <article aria-label="card do filme">
+          <h3 aria-label="Título do filme">Oppenheimer</h3>
+          <p aria-label="Descrição do filme">
             Oppenheimer, mais novo filme de Christopher Nolan, fez um tremendo
             sucesso em julho deste ano. O longa-metragem, 12º da carreira de
             Nolan, conta a história do 'pai' da primeira bomba atômica, J.
@@ -176,6 +200,7 @@
             <strong> Onde assistir: </strong> Prime Video e Apple TV
           </p>
           <iframe
+            aria-label="Trailer do filme"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/F3OxA9Cz17A?si=D6wG1gP7e25DbAF4"
@@ -187,9 +212,11 @@
         </article>
         <!-- <hr /> -->
 
-        <article>
-          <h3>Homem-Aranha: Através do Aranhaverso</h3>
-          <p>
+        <article aria-label="card do filme">
+          <h3 aria-label="Título do filme">
+            Homem-Aranha: Através do Aranhaverso
+          </h3>
+          <p aria-label="Descrição do filme">
             "Homem-Aranha: Através do Aranhaverso" é a segunda animação sobre a
             história de Miles Morales, o Homem-Aranha negro. A história, lançada
             cinco anos depois do primeiro filme da trilogia, narra o
@@ -205,6 +232,7 @@
             <strong> Onde assistir: </strong> HBO Max
           </p>
           <iframe
+            aria-label="Trailer do filme"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/LZBlXkDvhh4?si=C2SuOZKjbtNcQw54"

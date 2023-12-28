@@ -38,8 +38,11 @@
     </header>
     <main>
       <form action="../index.html">
-        <h1>Contato</h1>
-        <p>
+        <h1 aria-label="Título do formulário (Contato)">Contato</h1>
+        <p
+          aria-label="Descrição do formulário (Você também pode entrar com contato comigo, basta preencher as
+        informações a seguir)"
+        >
           Você também pode entrar com contato comigo, basta preencher as
           informações a seguir
         </p>
@@ -50,19 +53,33 @@
           pattern=".{3,}"
           id="nome"
           title="Que nome é esse que só tem 2 letras? XD"
+          aria-label="Campo de texto para o nome"
           required
         />
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" required />
+        <input
+          type="email"
+          aria-label="Campo de email"
+          name="email"
+          id="email"
+          required
+        />
         <label for="mensagem">Mensagem</label>
         <textarea
           name="mensagem"
+          aria-label="Campo de texto para a mensagem"
           id="mensagem"
           cols="30"
           rows="2"
           required
         ></textarea>
-        <button type="submit">Enviar</button>
+        <button
+          type="submit"
+          aria-label="Botão de enviar"
+          class="primary-button"
+        >
+          Enviar
+        </button>
       </form>
     </main>
     <footer>
