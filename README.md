@@ -1,27 +1,40 @@
-<h1 align="center">Documentação do projeto de filmes</h1>
+<h1 align="center">Detalhes do upgrad de desempenho e acessibildade</h1>
 
 <p align="center">
-  Nesse projeto eu busquei explorar mais a fundo meus conhecimentos básicos de HTML e CSS, e esse projeto também é uma task de HTML e CSS.<br/>
+  Creio que o maior desafio aqui foi trabalhar com a imagem, já que a única imagem que eu usei foi pelo css com background-image. 
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Ganhos de performace
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Temos agora 4 tamanhos de imagem do mapa, 600px, hd, full hd e 2k:
 
-![Imagem de HTML](./assets/html.png)
-![Imagem de CSS](./assets/css.png)
+> Antes
+> ![Imagem de antes](./assets/readme/antes.png)
 
-## ⚙️ Instalação do projeto
+> Depois
+> ![Imagem de depois](./assets/readme/depois.png)
 
-Passo-a-passo:
+## 🦻 Ganhos de acessibilidade
 
-1. Clonar o repositório do git:
-   > Para isso, basta pegar o link do repo e colocar git clone atras, segue o exmplo:
+### 🏠 Da página inicial
 
-```
-git clone https://github.com/wesleysousaa/vs13-front-01-html-css-task-02
-```
+> Exemplo de aria tag -> aria-label="Trailer do filme (Oppenheimer)"
+> ![Imagem da home](./assets/readme/home.png) ![Imagem da home 2](./assets/readme/Inserir%20um%20subtítulo.png)
 
-## 💻 Sobre o Projeto
+### 📝 Da página de contato
 
-Como já mencionei anteriormente, Nesse projeto eu busquei explorar mais a fundo meus conhecimentos básicos de HTML e CSS, e esse projeto também é uma task de HTML e CSS.
+> Exemplo de aria tag -> aria-label="Título do formulário (Contato)"
+> ![Imagem do form](./assets/readme/form.png)
+
+### 📝 Da página de sobre nós
+
+> Exemplo de aria tag -> aria-label="Título da página (Sobre nós)"
+> ![Imagem do about](./assets/readme/about.png)
+
+## 📈 Resultados
+
+Por fim, vou deixar uma imagem com algumas métricas bem gerais sobre o site
+
+> ![Metricas](./assets/readme/metricas.png)
+
+> <strong>Nota Importante</strong> <br /> `Se você inspecionar a página, perceberá que haverão muitas requisições, creio que isso seja derivado dos iframes.`
