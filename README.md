@@ -1,4 +1,4 @@
-<h1 align="center">Detalhes do upgrad de desempenho e acessibildade</h1>
+<h1 align="center">Detalhes do upgrade de desempenho e acessibildade</h1>
 
 <p align="center">
   Creio que o maior desafio aqui foi trabalhar com a imagem, já que a única imagem que eu usei foi pelo css com background-image. 
